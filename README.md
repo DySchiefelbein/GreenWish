@@ -10,6 +10,10 @@
 
 - Higher thumbnail resolution for mobile devices, due to 2-column grid (minimum: 350px * 350px)
 
+## Heroku
+
+To test the app for productive I have created an app on Heroku. It can be accessed at [https://photo-album-greenwish.herokuapp.com/](https://photo-album-greenwish.herokuapp.com/). The first time the app is opened, it may take a few seconds if it has not been used for some time.
+
 ## Available Scripts
 
 In the project directory, you can run:
