@@ -1,32 +1,38 @@
-# Frontend Developer Test
+# Photo album
 
-## Challenges
+## Available Scripts
 
-### Photo album
+In the project directory, you can run:
 
-Use:
+### `npm start`
 
-1. ReactJS or Angular
-2. Your favourite tools for state management, UI framework and HTTP requests
-3. JSON Placeholder (https://jsonplaceholder.typicode.com/guide/) as a data source
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Implement a photo album which reads the items from https://jsonplaceholder.typicode.com/albums/1/photos
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Render the photos in a 12 column grid for desktop or 2 column on Mobile devices (you choose the breakpoint or rely on your framework)
+### `npm test`
 
-When a photo is clicked, change view to display just that image filling the browser window, and allow the user to swipe between images (or click a corresponding arrow)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-When a user is on a single photo and copies the browser url, sharing it with another user, the second user should see the same photo as the first.
+### `npm run build`
 
-## Submitting your answer
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. Checkout this repository
-2. Make a new branch for your work
-3. Submit a pull request with your submission
-4. Email or chat us a link to the pull request
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Tips
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Automated tests are fundamental to successful software projects (optional)
-- Using libraries, frameworks, and copied examples is fine, but you will be expected to explain your choices. So if in doubt, it may for example, be better to use your own implementation than using a library you do not fully understand.
-- Code style (e.g. lint) and other checks are up to you
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
