@@ -27,6 +27,11 @@
       "react-app/jest"
     ]
   },
+  "jest": {
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/(?!@fancyapps)"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
