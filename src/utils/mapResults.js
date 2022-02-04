@@ -1,5 +1,5 @@
 const mapResultsForFancybox = (response) => {
-    const result = response.data.map(item => ({
+    const result = response.map(item => ({
         id: item.id,
         src: item.url,
         caption: item.title,

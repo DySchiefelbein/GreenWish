@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import axios from 'axios';
 import { Row } from 'react-bootstrap';
 
 import { ReactComponent as AlbumSvg } from './album.svg';
@@ -12,9 +11,10 @@ function App() {
   const [gallery, setGallery] = useState([]);
 
   useEffect(() => {
-    axios.get(imageApi)
-      .then((response) => {
-        const result = mapResultsForFancybox(response);
+    fetch(imageApi)
+      .then((response) => response.json())
+      .then((json) => {
+        const result = mapResultsForFancybox(json);
         setGallery(result);
         showFancyboxOnHash(result);
       });
